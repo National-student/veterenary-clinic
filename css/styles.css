@@ -6,9 +6,9 @@
 /* MEDIA QUERIES */
 
 :root {
-  --main-color:#333333;
-  --main-color-w:white;
-  --border-radius:3px;
+  --main-color: #333333;
+  --main-color-w: white;
+  --border-radius: 3px;
 }
 
 /*------------------------------------*\
@@ -16,32 +16,31 @@
 \*------------------------------------*/
 
 @font-face {
-  font-family: 'Futura PT';
-  src: url('../fonts/FuturaPT-Bold.woff') format('woff'),
-  url('../fonts/FuturaPT-Bold.woff2') format('woff2');
+  font-family: "Futura PT";
+  src: url("../fonts/FuturaPT-Bold.woff") format("woff"),
+    url("../fonts/FuturaPT-Bold.woff2") format("woff2");
   font-weight: bold;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Futura PT';
-  src:  url('../fonts/FuturaPT-Medium.woff') format('woff'),
-  url('FuturaPT-Medium.woff2') format('woff2');
+  font-family: "Futura PT";
+  src: url("../fonts/FuturaPT-Medium.woff") format("woff"),
+    url("FuturaPT-Medium.woff2") format("woff2");
   font-weight: 500;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Futura PT Book';
-  src: url('../fonts/FuturaPT-Book.woff') format('woff'),
-      url('../fonts/FuturaPT-Book.woff2') format('woff2');
+  font-family: "Futura PT Book";
+  src: url("../fonts/FuturaPT-Book.woff") format("woff"),
+    url("../fonts/FuturaPT-Book.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
-
 
 /*------------------------------------*\
   #BOX-SIZING
@@ -57,8 +56,6 @@ html {
   box-sizing: inherit;
 }
 
-
-
 /*------------------------------------*\
   #GLOBAL-STYLES
 \*------------------------------------*/
@@ -71,11 +68,11 @@ body {
   height: 100%;
   padding: 0;
   margin: 0;
-  font-family: 'Futura PT';
-  font-family: 'Futura PT Book';
+  font-family: "Futura PT";
+  font-family: "Futura PT Book";
   font-size: 16px;
   line-height: 1.5;
-  background: #E5E5E5;
+  background: #e5e5e5;
   color: #222;
 }
 
@@ -83,8 +80,6 @@ img {
   max-width: 100%;
   height: auto;
 }
-
-
 
 /*------------------------------------*\
   #HELPER / GLOBAL COMPONENTS
@@ -173,7 +168,7 @@ img {
 .header__link {
   display: block;
   text-decoration: none;
-  font-family: 'Futura PT Book';
+  font-family: "Futura PT Book";
   font-weight: 500;
   font-size: 14px;
   line-height: 18px;
@@ -183,7 +178,7 @@ img {
 }
 
 .header__link:hover {
-  color: #FFBD54;
+  color: #ffbd54;
 }
 
 .header__link:active {
@@ -219,11 +214,11 @@ img {
 
 .time__link {
   text-decoration: none;
-  font-family: 'Futura PT Book';
+  font-family: "Futura PT Book";
   font-weight: 500;
   font-size: 14px;
   line-height: 18px;
-  color:var(--main-color);
+  color: var(--main-color);
   margin: 0;
 }
 
@@ -290,7 +285,7 @@ img {
 
 .nav__link {
   text-decoration: none;
-  font-family: 'Futura PT Book';
+  font-family: "Futura PT Book";
   font-weight: 500;
   font-size: 16px;
   line-height: 21px;
@@ -300,7 +295,7 @@ img {
 }
 
 .nav__link:hover {
-  background: #FFBD54;
+  background: #ffbd54;
 }
 
 .nav__link:active {
@@ -312,14 +307,13 @@ img {
   text-decoration: none;
   display: inline-block;
   align-items: center;
-  font-family: 'Futura PT Book';
+  font-family: "Futura PT Book";
   font-weight: 500;
   font-size: 16px;
   line-height: 21px;
-  color:var(--main-color);
+  color: var(--main-color);
   padding: 20px 27px;
   transition: all 0.3s ease;
-
 }
 
 .nav__button::before {
@@ -333,7 +327,7 @@ img {
 }
 
 .nav__button:hover {
-  background:var(--main-color);
+  background: var(--main-color);
   color: white;
 }
 
@@ -353,7 +347,6 @@ img {
   background-position: left -130px;
   display: flex;
   align-items: center;
-
 }
 
 .cat-dog {
@@ -368,7 +361,7 @@ img {
 .animal__title {
   padding: 0;
   margin: 0;
-  font-family: 'Futura PT';
+  font-family: "Futura PT";
   width: 608px;
   height: 128px;
   font-size: 70px;
@@ -377,7 +370,7 @@ img {
 }
 
 .blu-text {
-  color: #78C0DE;
+  color: #78c0de;
 }
 
 .animal__text {
@@ -385,7 +378,7 @@ img {
   font-size: 16px;
   line-height: 21px;
   color: #949494;
-  font-family: 'Future PT';
+  font-family: "Future PT";
   padding: 0;
   margin: 0;
   width: 495px;
@@ -394,17 +387,17 @@ img {
 }
 
 .animal__link {
-  font-family: 'Future PT Book';
+  font-family: "Future PT Book";
   text-decoration: none;
   background: var(--main-color);
-  color:var(--main-color-w);
+  color: var(--main-color-w);
   padding: 15px 47px;
   border-radius: var(--border-radius);
   transition: all 0.3s ease;
 }
 
 .animal__link:hover {
-  background: #FFBD54;
+  background: #ffbd54;
   border-radius: 3px;
   color: var(--main-color);
 }
@@ -465,7 +458,7 @@ img {
 }
 
 .rewiew__title {
-  font-family: 'Futura PT Book';
+  font-family: "Futura PT Book";
   font-weight: 500;
   font-size: 20px;
   line-height: 26px;
@@ -475,7 +468,7 @@ img {
 }
 
 .westyle__title {
-  font-family: 'Futura PT';
+  font-family: "Futura PT";
   text-align: center;
   font-weight: bold;
   font-size: 48px;
@@ -492,7 +485,7 @@ img {
 
 .westyle__button {
   border: none;
-  background: #E5E5E5;
+  background: #e5e5e5;
   padding: 9px 15px 6px 16px;
   transition: all 0.3s ease;
 }
@@ -535,7 +528,7 @@ img {
 .westyle__link {
   display: inline-block;
   text-decoration: none;
-  font-family: 'Futura PT Book';
+  font-family: "Futura PT Book";
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
@@ -551,7 +544,7 @@ img {
 }
 
 .westyle__link:hover {
-  color:  #FFBD54;
+  color: #ffbd54;
 }
 
 .westyle__link:active {
@@ -577,7 +570,7 @@ img {
 }
 
 .hero__title {
-  font-family: 'Futura PT';
+  font-family: "Futura PT";
   font-weight: 500;
   font-size: 36px;
   line-height: 20px;
@@ -590,7 +583,7 @@ img {
 
 .hero__text {
   width: 492px;
-  font-family: 'Futura PT';
+  font-family: "Futura PT";
   font-weight: normal;
   font-size: 16px;
   line-height: 20px;
@@ -616,7 +609,7 @@ img {
 }
 
 .blueback__container {
-  background: #78C0DE;
+  background: #78c0de;
   border-radius: 5px;
   color: var(--main-color-w);
   display: flex;
@@ -627,7 +620,7 @@ img {
 }
 
 .blue__title {
-  font-family: 'Futura PT';
+  font-family: "Futura PT";
   font-weight: bold;
   font-size: 48px;
   line-height: 20px;
@@ -648,12 +641,12 @@ img {
 }
 
 .emailto:valid {
-  border: 1px solid #00B031;
-  color: #00B031;
+  border: 1px solid #00b031;
+  color: #00b031;
 }
 
 .emailto:invalid {
-  color: #D81D04;
+  color: #d81d04;
 }
 
 .emailto::placeholder {
@@ -672,7 +665,7 @@ img {
 }
 
 .follow__button:hover {
-  background: #FFBD54;
+  background: #ffbd54;
   color: var(--main-color);
 }
 
@@ -700,11 +693,11 @@ img {
 }
 
 .dogs__title {
-  font-family: 'Futura PT';
+  font-family: "Futura PT";
   font-weight: bold;
   font-size: 48px;
   line-height: 20px;
-  text-align:center;
+  text-align: center;
   color: var(--main-color);
 }
 
@@ -731,7 +724,7 @@ img {
 
 .year {
   margin: 0;
-  font-family: 'Futura PT Book';
+  font-family: "Futura PT Book";
   font-weight: 500;
   font-size: 14px;
   line-height: 18px;
@@ -741,7 +734,7 @@ img {
 
 .cat__title {
   margin: 0;
-  font-family: 'Futura PT';
+  font-family: "Futura PT";
   font-weight: bold;
   font-size: 22px;
   line-height: 25px;
@@ -752,7 +745,7 @@ img {
 
 .cat__text {
   margin: 0;
-  font-family: 'Futura PT';
+  font-family: "Futura PT";
   font-weight: normal;
   font-size: 16px;
   line-height: 20px;
@@ -763,7 +756,7 @@ img {
 
 .cat-link {
   margin: 0;
-  font-family: 'Futura PT Book';
+  font-family: "Futura PT Book";
   font-weight: 500;
   font-size: 16px;
   line-height: 21px;
@@ -783,7 +776,7 @@ img {
 }
 
 .cat-link:hover {
-  color: #FFBD54;
+  color: #ffbd54;
 }
 
 .cat-link:active {
@@ -795,7 +788,7 @@ img {
   display: flex;
   align-items: center;
   background: var(--main-color-w);
-  border: 1px solid #F3F3F3;
+  border: 1px solid #f3f3f3;
   box-sizing: border-box;
   border-radius: 5px;
   height: 435px;
@@ -816,7 +809,7 @@ img {
 
 .hashtag__list {
   list-style-type: none;
-  color: #3D9CEA;
+  color: #3d9cea;
   display: flex;
   align-items: center;
   padding: 0;
@@ -830,7 +823,7 @@ img {
 }
 
 .hashtag__link:hover {
-  color: #FFBD54;
+  color: #ffbd54;
 }
 
 .hashtag__link:active {
@@ -840,7 +833,7 @@ img {
 
 .month {
   margin: 0;
-  font-family: 'Futura PT Book';
+  font-family: "Futura PT Book";
   font-weight: 500;
   font-size: 14px;
   line-height: 18px;
@@ -849,7 +842,7 @@ img {
 
 .dog__title {
   margin: 0;
-  font-family: 'Futura PT';
+  font-family: "Futura PT";
   font-weight: bold;
   font-size: 26px;
   line-height: 29px;
@@ -860,7 +853,7 @@ img {
 
 .dog__text {
   margin: 0;
-  font-family: 'Futura PT';
+  font-family: "Futura PT";
   font-weight: normal;
   font-size: 16px;
   line-height: 20px;
@@ -903,17 +896,17 @@ img {
 
 .map__title {
   margin: 0;
-  font-family: 'Futura PT';
+  font-family: "Futura PT";
   font-weight: bold;
   font-size: 48px;
   line-height: 62px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .map__text {
   margin: 0;
   width: 345px;
-  font-family: 'Futura PT';
+  font-family: "Futura PT";
   font-weight: normal;
   font-size: 16px;
   line-height: 20px;
@@ -936,22 +929,22 @@ img {
 }
 
 .input-tipe:valid {
-  border: 1px solid #00B031;
-  color: #00B031;
+  border: 1px solid #00b031;
+  color: #00b031;
   border-radius: 5px;
 }
 
 .input-email:valid {
-  border: 1px solid #00B031;
-  color: #00B031;
+  border: 1px solid #00b031;
+  color: #00b031;
   border-radius: 5px;
 }
 
 .input-email:invalid {
-  border: 1px solid #D81D04;
+  border: 1px solid #d81d04;
   box-sizing: border-box;
   border-radius: 5px;
-  color: #D81D04;
+  color: #d81d04;
 }
 
 .input-tipe::placeholder {
@@ -974,7 +967,7 @@ img {
 
 .yellow-button {
   border: none;
-  background: #FFBD54;
+  background: #ffbd54;
   padding: 15px 50px;
   margin-top: 30px;
   transition: all 0.3s ease;
@@ -992,8 +985,8 @@ img {
 
 .footer {
   margin-top: 247px;
-  background: #F3F3F3;
-  border: 1px solid #EBEBEB;
+  background: #f3f3f3;
+  border: 1px solid #ebebeb;
   box-sizing: border-box;
 }
 
@@ -1042,7 +1035,7 @@ img {
 
 .clinic__link {
   text-decoration: none;
-  font-family: 'Futura PT Book';
+  font-family: "Futura PT Book";
   font-weight: 500;
   font-size: 16px;
   line-height: 21px;
@@ -1052,7 +1045,7 @@ img {
 }
 
 .clinic__link:hover {
-  background: #FFBD54;
+  background: #ffbd54;
   color: var(--main-color);
 }
 
@@ -1088,12 +1081,12 @@ img {
   background-repeat: no-repeat;
   width: 14px;
   height: 14px;
-  padding-right:19px;
+  padding-right: 19px;
   margin-top: 5px;
 }
 
 .foter__adres {
-  font-family: 'Futura PT Book';
+  font-family: "Futura PT Book";
   width: 175px;
   margin: 0;
   font-weight: 500;
@@ -1124,7 +1117,7 @@ img {
 }
 
 .footer__link:hover {
-  color: #FFBD54;
+  color: #ffbd54;
 }
 
 .footer__link:active {
@@ -1161,13 +1154,12 @@ img {
 .footer__last {
   padding: 0;
   margin: 0;
-  font-family: 'Futura PT';
+  font-family: "Futura PT";
   font-weight: normal;
   font-size: 14px;
   line-height: 18px;
   display: flex;
   align-items: center;
   text-align: right;
-  color: #5C5C5C;
+  color: #5c5c5c;
 }
-
